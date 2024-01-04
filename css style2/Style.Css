@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+nav {
+    background-color:antiquewhite
+}
+
+nav .container {
+    width: 1200px;
+    margin: auto;
+}
+
+nav ul{
+list-style-type: none;
+
+}
+
+nav .row {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+nav ul li {
+    display: inline-block;
+ padding: 10px 20px;
+}
+
+nav a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+nav a:hover {
+    color : #FF1E1E ;
+}
+nav .container .row button {
+    height: 50px;
+    width: 180px;
+    color: #FFE3F8 ;
+    border: 400px ;
+    background-color: #FF1E1E ;
+    border: 1px solid #FF5959 ;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+nav .container .row button:hover {
+    color: black;}
